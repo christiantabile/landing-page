@@ -11,12 +11,10 @@
 </head>
 
 <body>
-
-    <div class="header">
-        <a href="#" class="logo" id="">Logo</a>
-
-        <div class="left-links">
-            <ul>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo" id="">Logo</a>
+            <ul class="nav">
                 <li>
                     <a href="#" class="link-content">header link 1</a>
                 </li>
@@ -28,71 +26,82 @@
                 </li>
             </ul>
         </div>
+    </nav>
 
+    <div class="header">
+        <div class="container">
+            <div class="content">
+                <div class="header-title">This Website Is Awesome!</div>
+                <div class="header-description">This website has some subtext that goes here under the main title. It's
+                    a small font and the color is lower contrast
+                </div>
+                <button class="signup-button">Sign up</button>
+            </div>
+
+            <div class="img">this is placeholder for an image.</div>
+        </div>
     </div>
 
+
     <div class="main">
+        <section class="information">
+            <div class="container">
+                <div class="information-title">Some random information.</div>
 
-        <div class="home">
-            <div class="home-content">
-                <div class="home-title">This Website Is Awesome!</div>
-                <div class="home-description">This website has some subtext that goes here under the main title. It's a
-                    small font and the color is lower contrast
+                <div class="information-container">
+                    <div class="information-content">
+                        <p>this is some subtext under an illustration or image</p>
+                    </div>
+
+                    <div class="information-content">
+                        <p>this is some subtext under an illustration or image</p>
+                    </div>
+
+                    <div class="information-content">
+                        <p>this is some subtext under an illustration or image</p>
+                    </div>
+
+                    <div class="information-content">
+                        <p>this is some subtext under an illustration or image</p>
+                    </div>
                 </div>
+
             </div>
+        </section>
 
-            <div class="home-content">
-                <img src="assets/img/" alt="" class="home-image">
+
+        <section class="quote">
+            <div class="container">
+                <div class="quote-content">
+                    This is an inspiring quote, or testimonial from a customer. Maybe it's just filling up space, or
+                    maybe
+                    people will actually read it. Who knows? All I know is that is looks nice.
+                </div>
+                <div class="quoter">- Thor, God of Thunder</div>
             </div>
-        </div>
+        </section>
 
-        <div class="information">
+        <section class="signup">
+            <div class="container">
 
-            <div class="information-title">Some random information.</div>
+                <div class="signup-content">
+                    <div class=" signup-header"> Call to action! It's time!</div>
 
-            <div class="information-container">
-
-                <div class="information-content">
-
+                    <div class="signup-description">
+                        Sign up for our product by clicking that button right over there!
+                    </div>
                 </div>
 
-                <div class="information-content">
-
-                </div>
-
-                <div class="information-content">
-
-                </div>
-
-                <div class="information-content">
-                </div>
+                <button class="signup-button">Sign up</button>
             </div>
-        </div>
-
-        <div class="quote-container">
-            <div class="quote">
-                This is an inspiring quote, or testimonial from a customer. Maybe it's just filling up space, or maybe
-                people will actually read it. Who knows? All I know is that is looks nice.
-            </div>
-            <div class="quoter">- Thor, God of Thunder</div>
-        </div>
-
-        <div class="signup">
-            <div class="signup-content">
-                <div class="signup-header"> Call to action! It's time!</div>
-
-                <div class="signup-description">
-                    Sign up for our product by clicking that button right over there!
-                </div>
-            </div>
-
-            <button class="signup-button">Sign up</button>
-        </div>
+        </section>
     </div>
 
     <div class="footer">
-        <div class="footer-content">
-            Copyright Ⓒ The Odin Project 2021
+        <div class="container">
+            <div class="footer-content">
+                Copyright Ⓒ The Odin Project 2021
+            </div>
         </div>
     </div>
 </body>
